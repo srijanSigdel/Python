@@ -1,0 +1,21 @@
+version: 2
+updates:
+  # GitHub Actions dependencies
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    commit-message:
+      prefix: "deps"
+    open-pull-requests-limit: 5
+
+  # NPM (JavaScript/Node)
+  - package-ecosystem: "npm"
+    directory: "/" # change if package.json is not in root
+    schedule:
+      interval: "weekly"
+    commit-message:
+      prefix: "deps"
+    open-pull-requests-limit: 5
+    ignore:
+      - dependency-type: "development" # remove if you want dev deps
