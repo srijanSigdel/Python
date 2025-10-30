@@ -1,12 +1,12 @@
-# Python Learning Playground 
+# Learning Playground 
 
-Welcome to my personal Python learning repository! This is where I experiment, practice, and document my journey learning Python programming.  
+Welcome to my personal learning repository! This is where I experiment, practice, and document my journey learning programming.  
 
 ---
 
 ## About
 
-This repo contains small projects, code snippets, exercises, and experiments as I learn Python. The goal is to explore different aspects of Python, including:
+This repo contains small projects, code snippets, exercises, and experiments as I learn programming. The goal is to explore different aspects of coding including:
 
 - Basics: variables, loops, conditions, functions
 - Data Structures: lists, dictionaries, sets, tuples
