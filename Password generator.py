@@ -23,4 +23,6 @@ def generate_strong_password():
 
     return "".join(password)
 
-print("Generated strong password:",generate_strong_password())
+# Generate a strong password without logging it in clear text
+password = generate_strong_password()
+print("A strong password has been generated. Handle it securely.")
