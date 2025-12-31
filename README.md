@@ -19,3 +19,5 @@ This repo contains small projects, code snippets, exercises, and experiments as 
 ---
 
 ## Repository Structure
+
+## This document also serves as security testing like codeQL and Dependabot
